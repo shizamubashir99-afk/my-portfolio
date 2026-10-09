@@ -1,0 +1,466 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shiza Mubashir's Computer Science portfolio, projects, skills and experience.">
+  <title>Shiza Mubashir | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+      <h1>Shiza Mubashir</h1>
+      <p class="hero-description">
+        BS Computer Science Student |
+        Aspiring Data Scientist &amp; AI Engineer
+      </p>
+
+      <div class="hero-buttons">
+        <a class="button primary-button" href="#projects">
+          Explore My Projects
+        </a>
+        <a class="button secondary-button" href="#contact">
+          Contact Me
+        </a>
+      </div>
+
+      <button
+        class="theme-button"
+        id="themeToggle"
+        type="button"
+        aria-label="Switch to dark theme"
+        aria-pressed="false"
+      >
+        <span id="themeIcon" aria-hidden="true">☾</span>
+        <span id="themeText">Dark Mode</span>
+      </button>
+    </div>
+    <a class="scroll-link" href="#about">Scroll to explore ↓</a>
+  </header>
+
+  <nav class="navbar" aria-label="Main navigation">
+    <a class="logo" href="#home">SM.</a>
+
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section reveal" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-card card">
+        <div class="about-symbol" aria-hidden="true">✿</div>
+
+        <div>
+          <h3>Hello! I'm Shiza.</h3>
+          <p>
+            I am a 5th semester Computer Science student at
+            COMSATS University Islamabad, Wah Campus. I enjoy
+            programming, solving problems, and exploring new
+            technologies.
+          </p>
+          <p>
+            I have worked on academic projects involving
+            application development, GUI design, file handling,
+            and system design. During my two-month internship at
+            BrainSwarm Robotics, NSTP, NUST, I gained practical
+            experience working on the frontend and backend of a
+            robotics marketplace and management platform.
+          </p>
+          <p>
+            My long-term goal is to pursue a career in Data Science
+            or Artificial Intelligence and continue developing my
+            technical skills through learning and projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>My Skills</h2>
+        <p class="section-description">
+          Technologies and tools I have studied or used in my projects.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="card skill-card">
+          <div class="skill-icon" aria-hidden="true">⌨</div>
+          <h3>Programming Languages</h3>
+          <div class="tags">
+            <span>C++</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <div class="skill-icon" aria-hidden="true">⚙</div>
+          <h3>Tools &amp; Technologies</h3>
+          <div class="tags">
+            <span>MySQL</span>
+            <span>Prolog</span>
+            <span>Wireshark</span>
+            <span>Nmap / Zenmap</span>
+            <span>Zotero</span>
+            <span>Oracle APEX</span>
+            <span>Cisco</span>
+            <span>XAMPP</span>
+            <span>Draw.io</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <div class="skill-icon" aria-hidden="true">✧</div>
+          <h3>Other Skills</h3>
+          <div class="tags">
+            <span>Problem Solving</span>
+            <span>File Handling</span>
+            <span>GUI Development</span>
+            <span>System Design</span>
+            <span>Teamwork</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">A FEW THINGS I'VE BUILT</p>
+        <h2>My Projects</h2>
+        <p class="section-description">
+          Explore my academic projects using the slideshow.
+        </p>
+      </div>
+
+      <div class="project-showcase card">
+        <div class="slide-counter" id="slideCounter" aria-live="polite">
+          PROJECT 01 / 04
+        </div>
+
+        <div class="slides">
+          <article class="slide active" aria-hidden="false">
+            <div class="project-art art-one" aria-hidden="true">
+              <span>🔐</span>
+              <p>SECURE SYSTEM</p>
+            </div>
+            <div class="slide-content">
+              <p class="project-type">C++ PROJECT</p>
+              <h3>Phone Security Suite</h3>
+              <p>
+                A security application developed using C++ and file
+                handling, featuring password protection, user
+                authentication, and secure data management.
+              </p>
+              <div class="tags">
+                <span>C++</span>
+                <span>Authentication</span>
+                <span>File Handling</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="slide" aria-hidden="true">
+            <div class="project-art art-two" aria-hidden="true">
+              <span>▤</span>
+              <p>BILLING SYSTEM</p>
+            </div>
+            <div class="slide-content">
+              <p class="project-type">JAVA PROJECT</p>
+              <h3>ISP Billing and Management System</h3>
+              <p>
+                A Java GUI application designed to manage customer
+                records, billing details, and service information
+                using file handling.
+              </p>
+              <div class="tags">
+                <span>Java</span>
+                <span>GUI</span>
+                <span>File Handling</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="slide" aria-hidden="true">
+            <div class="project-art art-three" aria-hidden="true">
+              <span>✎</span>
+              <p>STORY GENERATOR</p>
+            </div>
+            <div class="slide-content">
+              <p class="project-type">PYTHON PROJECT</p>
+              <h3>Mad Libs Game</h3>
+              <p>
+                A text-based game that takes words from users and
+                uses string manipulation to create fun, dynamic stories.
+              </p>
+              <div class="tags">
+                <span>Python</span>
+                <span>User Input</span>
+                <span>Strings</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="slide" aria-hidden="true">
+            <div class="project-art art-four" aria-hidden="true">
+              <span>◇</span>
+              <p>SMART TECHNOLOGY</p>
+            </div>
+            <div class="slide-content">
+              <p class="project-type">SOFTWARE REQUIREMENTS</p>
+              <h3>SRS and Entrepreneurship of VR/AR Glasses</h3>
+              <p>
+                A Software Requirements Specification for VR/AR
+                smart glasses, including feature analysis, user
+                requirements, and market opportunities.
+              </p>
+              <div class="tags">
+                <span>SRS</span>
+                <span>System Analysis</span>
+                <span>Documentation</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="slideshow-controls">
+          <button class="slide-button" id="prevSlide" type="button"
+            aria-label="Previous project">← Previous</button>
+
+          <div class="slide-dots" id="slideDots"
+            aria-label="Choose a project">
+            <button type="button" class="slide-dot active"
+              data-slide="0" aria-label="Project 1" aria-current="true"></button>
+            <button type="button" class="slide-dot"
+              data-slide="1" aria-label="Project 2" aria-current="false"></button>
+            <button type="button" class="slide-dot"
+              data-slide="2" aria-label="Project 3" aria-current="false"></button>
+            <button type="button" class="slide-dot"
+              data-slide="3" aria-label="Project 4" aria-current="false"></button>
+          </div>
+
+          <button class="slide-button" id="nextSlide" type="button"
+            aria-label="Next project">Next →</button>
+        </div>
+
+        <p class="slideshow-note">
+          The slideshow changes automatically. You can also use the buttons.
+        </p>
+      </div>
+    </section>
+
+    <section class="section reveal" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">MY JOURNEY SO FAR</p>
+        <h2>Experience &amp; Certificates</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="card timeline-card">
+          <div class="timeline-mark" aria-hidden="true">✦</div>
+          <div>
+            <p class="project-type">INTERNSHIP · 2 MONTHS</p>
+            <h3>MERN Stack Intern</h3>
+            <p class="institution">BrainSwarm Robotics · NSTP, NUST</p>
+            <p>
+              Worked on a robotics marketplace and management
+              platform, gaining practical experience in frontend
+              and backend development, application integration,
+              and team collaboration.
+            </p>
+          </div>
+        </article>
+
+        <article class="card timeline-card">
+          <div class="timeline-mark" aria-hidden="true">✧</div>
+          <div>
+            <p class="project-type">MICROSOFT CERTIFICATIONS</p>
+            <h3>Microsoft Office Specialist</h3>
+            <p class="institution">Office 2019</p>
+            <ul class="certificate-list">
+              <li>Microsoft Office Specialist: Word Associate</li>
+              <li>Microsoft Office Specialist: PowerPoint Associate</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">MY ACADEMIC BACKGROUND</p>
+        <h2>Education</h2>
+      </div>
+
+      <div class="education-grid">
+        <article class="card education-card">
+          <div class="education-icon" aria-hidden="true">🎓</div>
+          <p class="project-type">CURRENTLY STUDYING</p>
+          <h3>BS Computer Science</h3>
+          <p class="institution">
+            COMSATS University Islamabad, Wah Campus
+          </p>
+          <span class="education-badge">5th Semester</span>
+        </article>
+
+        <article class="card education-card">
+          <div class="education-icon" aria-hidden="true">📚</div>
+          <p class="project-type">HIGHER SECONDARY EDUCATION</p>
+          <h3>HSSC (ICS)</h3>
+          <p class="institution">
+            Punjab Group of Colleges, H-11
+          </p>
+          <span class="education-badge">Grade A</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="faq">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE MORE ABOUT ME</p>
+        <h2>Frequently Asked Questions</h2>
+        <p class="section-description">
+          Click a question to reveal its answer.
+        </p>
+      </div>
+
+      <div class="accordion">
+        <article class="accordion-item">
+          <h3>
+            <button class="accordion-button" type="button"
+              aria-expanded="false" aria-controls="answer1" id="question1">
+              <span>What are my career goals?</span>
+              <span class="accordion-symbol" aria-hidden="true">+</span>
+            </button>
+          </h3>
+          <div class="accordion-content" id="answer1"
+            role="region" aria-labelledby="question1" hidden>
+            <p>
+              I aim to pursue a career in Data Science or Artificial
+              Intelligence and keep improving my programming and
+              analytical skills.
+            </p>
+          </div>
+        </article>
+
+        <article class="accordion-item">
+          <h3>
+            <button class="accordion-button" type="button"
+              aria-expanded="false" aria-controls="answer2" id="question2">
+              <span>What did I learn during my internship?</span>
+              <span class="accordion-symbol" aria-hidden="true">+</span>
+            </button>
+          </h3>
+          <div class="accordion-content" id="answer2"
+            role="region" aria-labelledby="question2" hidden>
+            <p>
+              I gained practical experience in frontend and backend
+              development, working with a team, and contributing to
+              a robotics marketplace and management platform.
+            </p>
+          </div>
+        </article>
+
+        <article class="accordion-item">
+          <h3>
+            <button class="accordion-button" type="button"
+              aria-expanded="false" aria-controls="answer3" id="question3">
+              <span>Which programming languages do I know?</span>
+              <span class="accordion-symbol" aria-hidden="true">+</span>
+            </button>
+          </h3>
+          <div class="accordion-content" id="answer3"
+            role="region" aria-labelledby="question3" hidden>
+            <p>
+              I have studied and worked with C++, Java, Python,
+              and JavaScript through coursework and projects.
+            </p>
+          </div>
+        </article>
+
+        <article class="accordion-item">
+          <h3>
+            <button class="accordion-button" type="button"
+              aria-expanded="false" aria-controls="answer4" id="question4">
+              <span>What do I enjoy working on?</span>
+              <span class="accordion-symbol" aria-hidden="true">+</span>
+            </button>
+          </h3>
+          <div class="accordion-content" id="answer4"
+            role="region" aria-labelledby="question4" hidden>
+            <p>
+              I enjoy learning new technologies, solving programming
+              problems, building applications, and exploring Data
+              Science and Artificial Intelligence.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section reveal" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Contact Me</h2>
+        <p class="section-description">
+          Feel free to reach out for opportunities, collaboration,
+          or a friendly conversation.
+        </p>
+      </div>
+
+      <div class="card contact-card">
+        <div class="contact-item">
+          <span class="contact-icon" aria-hidden="true">✉</span>
+          <div>
+            <h3>Email</h3>
+            <a href="mailto:shizamubashir99@gmail.com">
+              shizamubashir99@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-icon" aria-hidden="true">in</span>
+          <div>
+            <h3>LinkedIn</h3>
+            <a href="https://www.linkedin.com/in/shiza-mubashir"
+              target="_blank" rel="noopener noreferrer">
+              View my LinkedIn profile
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="footer-logo">SM.</a>
+    <p>Designed with care by Shiza Mubashir.</p>
+    <p>© <span id="currentYear">2026</span> Shiza Mubashir</p>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" type="button"
+    aria-label="Back to top" title="Back to top">
+    ↑
+  </button>
+</body>
+</html>
